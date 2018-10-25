@@ -13,6 +13,8 @@ class PostsController < ApplicationController
       
       redirect_to post_path(@post)
     else
+      
+    end
   end
 
   private
